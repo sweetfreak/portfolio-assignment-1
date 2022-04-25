@@ -1,0 +1,82 @@
+:root {
+    --main-color-1: rgb(42, 82, 190);
+    --main-color-2: #3F00FF;
+    --main-color-3: #aaaaaa;
+    
+}
+
+* {
+    margin: -0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header {
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+    background-image: url('../images/camera-1.jpg');
+    background-size: cover;
+    position: sticky;
+    position: -webkit-sticky;
+    max-height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    filter: grayscale(100%);
+}
+
+header img {
+    max-height: 100px;
+    max-width: auto;
+    flex: 20% 10%;
+    filter: none;
+}
+
+header nav {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    flex: wrap;
+    color: goldenrod;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-decoration: none;
+  }
+
+  .subheader {
+      font-weight: bold;
+      border-bottom: 1px solid goldenrod;
+  }
+
+section {
+    padding: 100px;
+    background-color: var(--main-color-1);
+    color: var(--main-color-3);
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1;
+}
+.project-image {
+    width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
