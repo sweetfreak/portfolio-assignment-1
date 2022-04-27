@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="weidth=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hire Jesse Sheehan!</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
@@ -11,8 +11,11 @@
 <body>
     <!--HEADER-->
     <header>
-        <img src="./assets/images/jesse-1.jpg">
-        <h1>Portfolio of Jesse Sheehan</h1> 
+        <div class="profile-pic">
+            <img src="./assets/images/jesse-1.jpg">
+        </div>
+        
+        <h1>Portfolio of <br> Jesse Sheehan</h1> 
         <nav>
             <ul>
                 <li>
@@ -23,90 +26,100 @@
             </ul>
         </nav>
     </header>
-    <!--HERO IMAGE? Gif?-->
-    <hero>
-        <!--image goes here-->
-    </hero>
 
+    <!--ABOUT ME SECTION begins-->
     <section class="about-me" id="about-jesse">
         <h2 class="subheader">About Me</h2>
         <div class="about-me-text">
             <p>Welcome to my portfolio! Currently, I am an HTML5 game producer by day, and an amateur HTML5 programmer by night.
-            Despite setting out to become a screenwriter and working for several years in voiceover and animation production, I began working towards becoming a game designinger in late 2019, by taking Playcrafting's "Learn Unity in 8 Weeks course.".
+            Despite setting out to become a screenwriter and working for several years in voiceover and animation production, I began working towards becoming a game designer in late 2019, by taking Playcrafting's "Learn Unity in 8 Weeks course.".
             Nearly an entire pandemic later, I've become a producer of HTML5 games, and have partially completed a full-stack coding bootcamp through Columbia University.
-            As I add more skills to my repetoire, I plan to transition into creating my own video game studio to make independent games.</p>
+            As I add more skills to my repetoire, I plan to transition into creating my own video game studio to make independent games featuring stories about modern society.</p>
         </div>
         
     </section>
+
 <!--PROJECT SECTION Begins-->
     <section id="jesse-project">
         <h2 class="subheader">Projects</h2>
+        <div class="one-card">
+        <div class="project-image"> 
+            <a href="https://sweetfreak.itch.io/billionstair">
+            <img src="./assets/images/billionstair.png" alt="Billionstair Game">
+            <div class="project-text">
+                <h4>Billion Stair Game</h4>
+            </div></a>
+        </div>
         <div class="project-cards">
             <!-- Card 1-->
             <div class="one-card">
-                <div class="project-image">
-                    <img src="./assets/images/billionstair.png">
-                
-                <div class="project-text">
-                    <h4>Billion Stair Game</h4>
+                <div class="project-image"> 
+                    <a href="Placeholder-Link">
+                    <img src="./assets/images/Class-President.png" alt="Class President Game">
+                    <div class="project-text">
+                        <h4>Class President</h4>
+                    
+                    </div></a>
                 </div>
-            </div>
             </div>
 
             <!-- Card 2-->
             <div class="one-card">
                 <div class="project-image">
-                    <img src="./assets/images/run-buddy.png">
-                
-                <div class="project-text">
-                    <h4>Run Buddy Website</h4>
+                    <a href="https://sweetfreak.github.io/run-buddy/">
+                    <img src="./assets/images/run-buddy.png" alt="Run Buddy Sign Up Website">
+                    <div class="project-text">
+                        <h4>Run Buddy Website</h4>
+                    
+                    </div></a>
                 </div>
-            </div>
             </div>    
             <!-- Card 3-->
             <div class="one-card">
                 <div class="project-image">
-                    <img src="./assets/images/website-image.png">
+                    <a href="https://sweetfreak.github.io/portfolio-assignment-1/">
+                    <img src="./assets/images/website-image.png" alt="Screenshot of this website">
                
                 <div class="project-text">
                     <h4>This website!</h4>
                 </div> 
+            </a>
             </div> 
             </div>
             <!-- Card 4-->
             <div class="one-card">
                 <div class="project-image">
-                    <img src="./assets/images/noggin-1.png">
+                     <a href="https://www.noggin.com/">
+                    <img src="./assets/images/noggin-1.png" alt="Image of Noggin.com homepage">
                 <div class="project-text">
-                    <h4>Noggin</h4>
+                    <h4>Noggin Games </h4>
                 </div>
+                </a>
                 </div>
             </div>
         </div>
     </section>
+
 <!--Contact me-->
     <section id="contact-jesse">
         <h2 class="subheader">Contact Me!</h2>
-        <div>
-            <ul>
+        <div class="contact-flex">
+            <ul class="contact-text">
                 <li>
-                    Github:
+                    <a href="https://github.com/sweetfreak">Github</a> 
                 </li>
                 <li>
-                    LinkedIn
+                    <a href="https://www.linkedin.com/in/jessetsheehan/">LinkedIn</a> 
                 </li>
                 <li>
-                    Twitter: @sweetgeekfreak
+                    <a href="https://www.instagram.com/sweetgeekfreak/">@sweetgeekfreak</a> 
                 </li>
-                <li>itch.io</li>
+                <li>
+                    <a href="https://sweetfreak.itch.io/">itch.io</a> 
+                </li>
             </ul>
         </div>
     </section>
-<!-- Footer-->
-    <footer>
-
-    </footer>
-
 
 </body>
 </html>
